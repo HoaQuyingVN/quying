@@ -1,8 +1,8 @@
-from setuptools import setup
+4from setuptools import setup
 
 setup(
     name='quying',
-    version=0.5.0,
+    version=5.0,
     packages=['quying'],
     install_requires=['argparse', 'requests'],
     entry_points={'console_scripts': ['quying = quying.cli.main:main']}
