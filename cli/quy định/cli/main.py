@@ -12,7 +12,8 @@ def main(args=None):
         choices=['debug', 'info', 'warning', 'error', 'critical'],
     )
     subparsers = parser.add_subparsers(help='Sub-commands')
-
+from .server import add_subcommand_hello
+    add_subcommand_hello(subparsers)
     
 
     # Parse all command line arguments
